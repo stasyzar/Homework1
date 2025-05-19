@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<form>
+<!--   Повне ім’я, стать, дата народження, email, телефон, бажаний колір фону, країна, місто, коментар.-->
+  <h1>Форма додавання викладача</h1>
+  <label for="fullname">Повне ім'я:</label>
+  <input type="text" id="fullname" name="fullname"><br>
+
+  <label for="gender">Оберіть стать:</label>
+
+  <select name="gender" id="gender">
+    <option value="women">жінка</option>
+    <option value="man">чоловік</option>
+    <option value="other">інше</option>
+  </select><br>
+
+  <label for="birthday">Дата народження:</label>
+  <input type="date" id="birthday" name="birthday"><br>
+
+  <label for="email">Електронна пошта:</label>
+  <input type="email" id="email" name="email"><br>
+
+  <label for="phone">Номер телефону:</label>
+  <input type="tel" id="phone" name="phone" ><br>
+
+  <label for="color">Бажаний колір фону:</label>
+  <input type="color" id="color" name="color"><br>
+
+  <label for="country">Країна:</label>
+  <select id="country" name="country">
+    <option value="ukraine">Україна</option>
+    <option value="poland">Польща</option>
+    <option value="germany">Німеччина</option>
+  </select><br>
+
+  <label for="city">Місто:</label>
+  <input type="text" id="city" name="city"><br>
+
+  <label for="comment">Коментар:</label><br>
+  <textarea id="comment" name="comment" rows="4" cols="30"></textarea><br>
+
+
+</form>
+
+</body>
+</html>
